@@ -15,4 +15,8 @@ $(document).ready(function() {
 		],
 		autoPlay: 3000
 	});
+
+	$(".activities").owlCarousel({
+		items: 1
+	});
 });
